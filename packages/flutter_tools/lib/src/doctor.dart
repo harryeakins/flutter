@@ -655,8 +655,8 @@ class FlutterValidator extends DoctorValidator {
       valid,
       messages,
       statusInfo: userMessages.flutterStatusInfo(
-        versionChannel,
-        frameworkVersion,
+        'stable (MDT patched)',
+        '1.17.0-with-watch',
         globals.os.name,
         globals.platform.localeName,
       ),
