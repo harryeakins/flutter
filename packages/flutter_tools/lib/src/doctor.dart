@@ -656,7 +656,7 @@ class FlutterValidator extends DoctorValidator {
       messages,
       statusInfo: userMessages.flutterStatusInfo(
         versionChannel,
-        frameworkVersion,
+        frameworkVersion + ' (with watch support)',
         globals.os.name,
         globals.platform.localeName,
       ),
